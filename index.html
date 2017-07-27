@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>rasmond</title>
+    <meta http-equiv = "content-type" content = "text / html; charset = utf-8" />
+    <link rel="stylesheet" href="css/style.css" media="screen" />
+    <script type="text/javascript" src="js/jquery.js" ></script>
+    <script type="text/javascript" src="js/jquery-ui.js" ></script>
+   	<script type="text/javascript" src="js/comm.js" ></script>
+   	<script type="text/javascript" src="js/smoothscroll.js" ></script>
+   	<script type="text/javascript" src="js/fade_form.js" ></script>
+   	<script type="text/javascript" src="js/tinycarousel.js" ></script>
+	<script type="text/javascript" src="js/uslugi.js" ></script>
+	<script type="text/javascript" src="js/placeholder.js" ></script>
+	<script type="text/javascript" src="js/music.js" ></script>
+</head>
+<body>
+	<header> <!-- верхняя часть включая бонус -->
+		<nav>
+			<a href="#uslugi" class="smoothScroll y">НАШИ<br>УСЛУГИ</a>
+			<a class="smoothScroll y" href="#schema">СХЕМА<br>РАЗВИТИЯ</a></div>
+			<div class="back_logo y">
+				<div class="border_logo">
+					<img src="images/RasmondLogoFinal.gif">
+				</div>
+			</div>
+			<a class="smoothScroll y y3" href="#review">ОТЗЫВЫ</a></div>
+			<a class="smoothScroll y" href="#why">ПОЧЕМУ<br>МЫ?</a>
+		</nav>
+		<div class="line_nav"></div>
+		<div class="main_img"> <!-- главная картинка и RASMOND -->
+			<div class="tagline">
+				<h1 class="rasmond_header">RASMOND <span class="mini-line">- </span><span class="this">это</span></h1>
+				<div class="ROST">
+					<div class="ras slog">Р<span>азвитие</span></div>
+					<div class="opt slog">О<span>птимизация</span></div>
+					<div class="sov slog">С<span>овершенствование</span></div>
+					<div class="tri slog">Т<span>риумф</span></div>
+				</div>
+				<h1 class="u_bis">ВАШЕГО БИЗНЕСА</h1>
+			</div>
+				<div class="feedback_buttons">
+					<a href="http://vk.com/id90756393" class="yt social" onclick="play();" target="_blank"><img src="images/yt.png"></a>
+					<div class="tw social" onclick="play();"><img src="images/tw.png"></div>
+					<div class="fb social" onclick="play();"><img src="images/fb.png"></div>
+					<div class="vk social" onclick="play();"><img src="images/vk.png"></div>
+				</div>
+
+			<div class="phone">
+				<div class="numbers">
+					+066 093 85 47<br> +067 055 77 88 
+				</div>
+				<div class="call" onclick="play(); diplay_hide('.fade_form');return false;"></div>
+			</div>
+		</div>
+		<div class="line"></div>
+		<div class="line2"></div>
+		<div class="line_grey">
+			<div class="round"></div>
+		</div>
+		<div class="border">
+			<div class="bonus"><p>БОНУС</p></div>
+		</div>
+	</header>
+	<div id="wave" onclick="play()"></div>
+	<div class="fade_form">
+		<div class="fade_form_main">
+		<img src="images/close.png" class="close pointer" onclick="fade_out('.fade_form');">
+		<p>Заказать обратный звонок</p>
+		<form>
+			<input type="name" class="fade" placeholder="Ваше имя">
+			<input type="phone" class="fade" placeholder="Ваш Номер Телефона">
+			<select size="1" name="soc" class="change_soc_fade">
+				<option value="vk">vk.com/</option>bonus
+				<option selected value="fb">facebook.com/</option>		
+			</select>
+			<input type="social" class="fade_soc" placeholder="Социальная сеть">
+		</form>
+		<button class="fade_but">Заказать</button>
+		</div>
+	</div>
+	<div class="fade_form2">
+		<div class="fade_form_main">
+			<img src="images/close.png" class="close pointer" onclick="fade_out('.fade_form2');">
+			<p>ЗАПОЛНИТЕ ЗАЯВКУ И МЫ СВЯЖЕМСЯ С ВАМИ</p>
+			<form>
+				<input type="name" class="fade" placeholder="Ваше имя">
+				<input type="mail" class="fade" placeholder="Ваш E-mail">
+				<select size="1" name="soc" class="change_soc_fade">
+					<option value="vk">vk.com/</option>
+					<option selected value="fb">facebook.com/</option>
+				</select>
+				<input type="social" class="fade_soc" placeholder="Социальная сеть">
+				<textarea class="fade_text"></textarea>
+			</form>
+			<button class="fade_but">Отправить заявку</button>
+		</div>
+	</div>
+	<div class="fade_wrap" onclick="fade_out('.fade_form, .fade_form2');"></div>
+	<div class="talk" onclick="diplay_hide('.fade_form2');return false;">
+		<p>Остались вопросы?</p>
+		<div class="horiz"></div>
+		<img src="images/talk.png">
+	</div>
+	<img src="images/pg_up.png" class="pg_up">
+	<section class="wrapper" > <!-- блок, что такое RASMOND? кружочки и слайдер -->
+		<p class="wtf_ras">Что такое RASMOND?</p>
+		<h3>RASMOND это коллектив из квалифицырованых программистов и<br>профессиональных дизайнеров</h3>
+		<img class="img_wtf" src="images/img_wtf.png">
+		<div class="on_trade" id="why"> <!-- блок слева-->
+			<p>На рынке с 2009 года</p> <br> Постоянное развитие и стремление к успеху <br> Куча текста
+			<img src="images/block_shadow.png" class="block_shadow"> 
+		</div>
+		<div class="on_trade_back"></div>
+		<div class="rounds"> <!-- блок кружочков -->
+			<div class="round1">
+				<div class="round2">
+					<div class="round3"><span class="inner_round">24</span><br><p>успешных<br>проектов</p></div>
+				</div>
+			</div>
+			<div class="round1 r2">
+				<div class="round2">
+					<div class="round3"><span class="inner_round">15</span><br><p>рекламных<br>услуг</p></div>
+				</div>
+			</div>
+			<div class="round1 r3">
+				<div class="round2">
+					<div class="round3"><span class="inner_round">6</span><br><p>лет<br>опыта</p></div> 
+				</div>
+			</div>
+			<div style="clear: left"></div>
+			<div class="ours">Наши проекты</div>
+			<div id="slider1" class="slider_wrapper">
+				<img class="img_str_reverse prev pointer" src="images/strel.png">
+				<div class="viewport"> <!-- часть слайдерка -->
+				<ul class="overview">
+					<li><img src="images/maxim.jpg"></li>
+					<li><img src="images/maxim.jpg"></li>
+					<li><img src="images/maxim.jpg"></li>
+					<li><img src="images/maxim.jpg"></li>
+					<li><img src="images/maxim.jpg"></li>
+					<li><img src="images/maxim.jpg"></li>
+				</ul>
+				</div>
+				<img class="img_str next pointer" src="images/strel.png">
+			</div>
+		</div>
+	</section>
+	<section  id="uslugi" class="uslugi"> <!-- блок услуги -->
+		<h2><p>RASMOND</p>УСЛУГИ</h2>
+		<div class="wrapper">
+			<div class="line_sq">
+				<div class="squad" id="s1">
+					<img src="images/enter.jpg">
+					<p>привет ипро лдву ктсруд аопл двзйц п длокз оилдащш щушлоадлва екущег олджзе узщклпод</p>
+				</div>
+				<div class="squad" id="s2">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг и больше текста</p>
+				</div>
+				<div class="squad" id="s3">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+				<div class="squad" id="s4">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+			</div>
+			<div class="all_block" id="open_s1">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2', 'Опишите услугу');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s2">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2', 'Опишите услугу');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s3">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us">Блок 3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s4">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 4 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+			</div>
+			<div class="line_sq">
+				<div class="squad" id="s5">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+				<div class="squad" id="s6">
+					<img src="images/enter.jpg">
+					<p>привет ипро лдву ктсруд аопл двзйц п длокз оилдащш щушлоадлва екущег олджзе узщклпод</p>
+				</div>
+				<div class="squad" id="s7">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+				<div class="squad" id="s8">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+			</div>
+			<div class="all_block" id="open_s5">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 5 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s6">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 6 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">Vkontakte</option>
+								<option selected value="fb">Fasebook</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s7">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us">Блок 7 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s8">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 8 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+			</div>
+			<div class="line_sq">
+				<div class="squad" id="s9">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг чтоб текста больше</p>
+				</div>
+				<div class="squad" id="s10">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+				<div class="squad"  id="s11">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+				<div class="squad"  id="s12">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+			</div>
+			<div class="all_block" id="open_s9">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 9 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s10">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 10 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s11">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us">Блок 11 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s12">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 12 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+			</div>
+			<div class="line_sq">
+				<div class="squad" id="s13">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+				<div class="squad" id="s14">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+				<div class="squad" id="s15">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+				<div class="squad" id="s16">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+			</div>
+			<div class="all_block" id="open_s13">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 13 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s14">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 14 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s15">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us">Блок 15 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s16">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 16 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+						<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+			</div>
+			<div class="line_sq">
+				<div class="squad" id="s17">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+				<div class="squad" id="s18">
+					<img src="images/enter.jpg">
+					<p>E-mail маркетинг</p>
+				</div>
+			</div>
+			<div class="all_block" id="open_s17">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us"> Блок 17 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		<div class="all_block" id="open_s18">
+			<div class="line_uslugi"><!-- форма и текст -->
+					<div class="text_us">Блок 18 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumSed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum
+					<div class="price">Цена: <span>300$</span></div>
+					<div class="sroki">Cроки: <span>до мая</span></div>
+				</div>
+				<div class="form_us">
+					<p>ОФОРМИТЬ УСЛУГУ</p>
+					<form class="oform">
+						<input class="name" type="name" placeholder="Ваше имя">
+						<input class="mail" type="mail" placeholder="EMAIL-адрес">
+						<div class="center">
+							<select size="1" name="soc" class="change_soc">
+								<option value="vk">vk.com/</option>
+								<option selected value="fb">facebook.com/</option>
+							</select>
+							<input class="soc" type="social" placeholder="Вконтакте"><br>
+						</div>
+					<button class="button">ОТПРАВИТЬ</button>
+					</form>
+					<p onclick="diplay_hide ('.fade_form2');return false;"  class="nop_usl pointer">>> Нет нужной услуги в списке</p>
+				</div>
+			</div>
+		</div>
+		</div>
+	</section>
+	<section class="project"> <!-- блок проектов -->
+		<div class="project_name">
+			ПРОЕКТЫ
+			<img src="images/photo_wave.png" class="wave">
+		</div>
+		<div class="wrapper">
+			<div class="vkladki pointer"> <!-- кейсы -->
+				<a id="tab1" class="active">ВСЕ</a>
+				<a id="tab2">БИЗНЕС</a>
+				<a id="tab3">ДИЗАЙН</a>
+				<a id="tab4">ТЕХНОЛОГИИ</a>
+				<a id="tab5">АВТОМОБИЛИ</a>
+				<a id="tab6">ТОРГОВЛЯ</a>
+				<a id="tab7">СПОРТ</a>
+				<a id="tab8">ОБСЛУЖИВАНИЕ</a>
+				<a id="tab9">ОБСЛУЖИВАНИЕ</a>
+				<a id="tab10">ОБСЛУЖИВАНИЕ</a>
+				<a id="tab11">ОБСЛУЖИВАНИЕ</a>
+				<a id="tab12">ОБСЛУЖИВАНИЕ</a>
+				<a id="tab13">ОБСЛУЖИВАНИЕ</a>
+				<a id="tab14">ОБСЛУЖИВАНИЕ</a>
+			</div>
+		</div>
+
+		<div class="wrapper">
+			<div class="project_page">
+				<div class="proj2">
+					<img src="images/sony_project.png" class="proj_img">
+					<div class="proj_text">
+						<p class="sony">SONY</p>
+						<p class="sony_int">Куча странного текста про компанию сони т .д.</p>
+					</div>
+				</div>
+				<div class="proj2">
+					<img src="images/sony_project.png" class="proj_img">
+					<div class="proj_text">
+						<p class="sony">SONY</p>
+						<p class="sony_int">Куча странного текста про компанию сони т .д.</p>
+					</div>
+				</div>
+				<div class="proj2">
+					<img src="images/sony_project.png" class="proj_img">
+					<div class="proj_text">
+						<p class="sony">SONY</p>
+						<p class="sony_int">Куча странного текста про компанию сони т .д.</p>
+					</div>
+				</div>
+				<div class="projects">
+
+					<div class="projects_line"> <!-- полоски проектов -->
+						<div class="block_pr pr1">
+							<img  class="img_block" src="images/enter.jpg">
+							<div class="brand_desc">
+								<img src="images/proj_img.png">
+								<p>много текста типа описание этого проекта которое появляется</p>
+								<h6>~ Rasmond ~</h6>
+							</div>
+						</div>
+						<div title="Описание проекта" class="block_pr pr2"></div>
+						<div class="block_pr pr3"></div>
+					</div>
+					<div class="projects_line">
+						<div class="block_pr pr1"></div>
+						<div class="block_pr pr2"></div>
+						<div class="block_pr pr3"></div>
+					</div>
+					<div class="projects_line">
+						<div class="block_pr pr1"></div>
+						<div class="block_pr pr2"></div>
+						<div class="block_pr pr3"></div>
+					</div>
+					<div class="projects_line">
+						<div class="block_pr pr1"></div>
+						<div class="block_pr pr2"></div>
+						<div class="block_pr pr3"></div>
+					</div>
+					<div class="projects_line"> <!-- полоски проектов -->
+						<div class="block_pr pr1">
+							<img  class="img_block" src="images/enter.jpg">
+							<div class="brand_desc">
+								<img src="images/proj_img.png">
+								<p>много текста типа описание этого проекта которое появляется</p>
+								<h6>~ Rasmond ~</h6>
+							</div>
+						</div>
+						<div title="Описание проекта" class="block_pr pr2"></div>
+						<div class="block_pr pr3"></div>
+					</div>
+				</div>
+				<div style="clear:both"></div>
+				<div class="dale pointer" onclick="more_proj();">ДАЛЕЕ</div>
+				<div class="v pointer" onclick="more_proj();"><img src="images/v.png"></div>
+				<div class="v_reverse pointer" onclick="more_reverse_proj();"><img src="images/v.png"></div>
+				<div  class="sfera pointer" onclick="diplay_hide('.fade_form2' , 'Опишите свой вариант');return false;">>>Нет вашей сферы деятельности? <br>
+				Заполните анкету!</div>
+			</div>
+		</div>
+	</section>
+	<section class="steps"> <!-- блок етапов работы (шестигранников) -->
+		<div class="st_work">
+			<p><span>Э<img class="trig" src="images/2trig.png"></span>ТАПЫ РАБОТЫ</p>
+		</div>
+		<img class="blue_wave" src="images/blue_wave.png">	
+		<div class="prodvig">RASMOND предлагает надежную схему по продвижению Вашего сайта</div>	
+		<div class="wrapper chem" id="schema">
+			<div class="hexagon h1"> <!-- шестигранник -->
+				<img src="images/sms.png">
+				<p>Вы заполняете анкету и мы связываемся с Вами</p>
+			</div>
+			<div class="hexagon h2">
+				<img src="images/discus.png">
+				<p>Обсуждение конечных результатов</p>
+			</div>
+			<div class="hexagon h3">
+				<img src="images/search.png">
+				<p><br>Анализ, сроки и предоплата</p>
+			</div>
+			<div class="hexagon h4">
+				<img src="images/img.png">
+				<p><Br>Дизайн</p>
+			</div>
+			<div class="hexagon right hg1">
+				<p>Создание дизайна сайта</p>
+			</div>
+			<div class="hexagon right">
+				<p><br>Вёрстка сайта</p>
+			</div>
+			<div style="clear:both"></div>
+			<div class="hexagon right left">
+				<p><br>Копирайт правки</p>
+			</div>
+			<div class="hexagon right">
+				<p><br>Подбор контента</p>
+			</div>
+			<div class="hexagon h5">
+				<img src="images/note.png">
+				<p><br>Концепция сайта</p>
+			</div>
+			<div style="clear:both"></div>
+			<div class="hexagon h6">
+				<img src="images/comp.png">
+				<p>Размещение сайта на хостинге</p>
+			</div>
+		</div>
+	</section>
+	<!-- <section class="feedback"> форма обратной связи 
+		<div class="quest">Есть вопросы?<br>Напиши нам!</div>
+		<div class="feedb">
+			<div class="feed_form">
+				<form>
+					<input type="name" class="feed_holder" placeholder="Имя"><br>
+					<input type="thername" class="feed_holder" placeholder="Фамилия"><br>
+					<input type="mail" class="feed_holder" placeholder="E-mail"><br>
+					<textarea rows="10" resize="none" class="feed_holder fd_hl_text"></textarea>
+				</form>
+				<button class="submit_feed"><img class="arrowstyle" src="images/arrowstyle.png"></button>
+			</div>
+			<p>rasmon@gmail.com</p>
+		</div>
+	</section> -->
+	<section class="review" id="review"> <!-- форма отзывов -->
+		<p>Поделитесь мнением<br>Оставте свой отзыв!</p>
+		<form>
+			<input type="name" class="review_holder" placeholder="ВАШЕ ИМЯ"><br>
+			<input type="mail" class="review_holder" placeholder="E-MAIL"><br>
+			<textarea class="review_holder rw_hl_text" cols="10" rows="5"r placeholder="СООБЩЕНИЕ"></textarea>
+		</form>
+		<img src="images/stretch.png" class="stretch"><br>
+		<input type="button"  class="submit_review" value="ОТПРАВИТЬ">
+	</section>
+	<div style="clear:both">
+	<div class="seper_line"></div>
+	<section class="comments"> <!--  сами отзывы -->
+		<div style="clear:both"></div>
+		<div class="aside"></div>
+		<div class="comm_nav_block">
+			<div class="more reverse">
+				<div class="for_abs">
+					<img  class="arrow pointer" onclick="more_reverse();" src="images/arrow_down.png" >
+					
+				</div>
+			</div>
+			<div class="comm_block">
+				<div class="comment">
+					<div class="cross_line"></div>
+					<p style="font-weight:bold">Петрушка Вадя</p><br>
+					<p>Привет всем тут будет такой длинный коментарий что огогого</p>
+					<div class="cross_line2"></div>
+				</div>
+				<div class="comment">
+					<div class="cross_line"></div>
+					<p style="font-weight:bold">Огурчик Петя</p><br>
+					<p>Привет всем тут будет такой длинный коментарий что огогого</p>
+					<div class="cross_line2"></div>
+				</div>
+				<div class="comment">
+					<div class="cross_line"></div>
+					<p style="font-weight:bold">Вася Сидор</p><br>
+					<p>Привет всем тут будет такой длинный коментарий что огогого</p>
+					<div class="cross_line2"></div>
+				</div>
+				<div class="comment">
+					<div class="cross_line"></div>
+					<p style="font-weight:bold">Дима Симонеко</p><br>
+					<p>Привет всем тут будет такой длинный коментарий что огогого</p>
+					<div class="cross_line2"></div>
+				</div>
+				<div class="comment">
+					<div class="cross_line"></div>
+					<p style="font-weight:bold">Петухок Ваня</p><br>
+					<p>Привет всем тут будет такой длинный коментарий что огогого</p>
+					<div class="cross_line2"></div>
+				</div>
+				<div class="comment">
+					<div class="cross_line"></div>
+					<p style="font-weight:bold">Евгеша Грабик</p><br>
+					<p>Привет всем тут будет такой длинный коментарий что огогого</p>
+					<div class="cross_line2"></div>
+				</div>
+			</div>
+			<div class="more">
+				<div class="for_abs">
+					<img  class="arrow pointer" onclick="more();" src="images/arrow_down.png" >
+				</div>
+			</div>
+		</div>
+		<div class="aside as_r"></div>
+		<div style="clear:both"></div>
+	</section>
+	<footer>
+		<div class="fot_line"></div>
+		<div class="footer">
+			Rasmond (c)2015<br>Private policy<br>All right reserved
+		</div>
+	</footer>
+</body>
+</html>
